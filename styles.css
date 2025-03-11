@@ -27,7 +27,7 @@
 
 /* 图片之间的灰色间隔 */
 .image-spacing {
-  height: 1vh;
+  height: 0.5vh;
   width: 100%; /* 在小于最大宽度的视窗中，宽度为视窗的 100% */
   background-color: #ccc;
 }
