@@ -13,6 +13,7 @@
 }
 
 .responsive {
+  background-color: #f0f0f0; /* 占位符背景色 */
   width: 100%; /* 在小于最大宽度的视窗中，宽度为视窗的 100% */
   height: auto; /* 高度自动根据宽度调整 */
   margin: 0; /* 确保没有额外的外边距 */
