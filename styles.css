@@ -9,6 +9,11 @@
 }
 
 #content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0; /* 确保没有额外的间距 */
   background-color: transparent; /* 确保背景透明 */
 }
 
@@ -22,7 +27,7 @@
 
 /* 图片之间的灰色间隔 */
 .image-spacing {
-  height: 2vh;
+  height: 1vh;
   width: 100%; /* 在小于最大宽度的视窗中，宽度为视窗的 100% */
   background-color: #ccc;
 }
